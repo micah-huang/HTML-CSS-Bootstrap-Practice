@@ -1,0 +1,40 @@
+div {
+      font-size: 18px;
+      p {
+          font-weight: bold;
+      }
+
+  }
+
+
+%message {
+      font-family: sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .specificMessage {
+      @extend %message;
+      background-color: green;
+  }
+
+
+$color: red;
+
+.center {
+	text-align: center;
+}
+
+#center {
+	text-align: center;
+}
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+}
